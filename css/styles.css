@@ -1,0 +1,239 @@
+/* Global */
+html {
+	font-family: Arial;
+}
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hashtag {
+  color: #aa0404;
+}
+
+/* Header, Source: https://www.freepik.com/premium-photo/group-gamers-playing-video-games-online-created-with-generative-ai-technology_38952715.htm */
+header {
+    background-image: url("../img/Main-Background_Tournament-01.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    text-align: center;
+}
+
+.logo {
+  width: 200px; 
+  height: auto; 
+  margin-right: 10px; 
+  margin: 0 auto; 
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:hover {
+  display: inline-block;
+  position: relative;
+  background-color: #aa0404;
+  cursor: pointer;
+}
+
+nav ul li:active {
+    display: inline-block;
+    position: relative;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* Hero section */
+  .hero {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* About section */
+.about {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* Games section */
+.games {
+    padding: 10px 0;
+}
+
+.games h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.games-table {
+	margin: 0 auto;
+	border-spacing: 0px;
+}
+
+td {
+	max-width: 300px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.games-logo {
+	width: 220px;
+	height: 120px;
+	object-fit: contain;
+	transition: transform 0.3s;
+}
+
+.games-logo:hover {
+	transform: scale(1.2) ;
+}
+
+h2 {
+	margin-bottom: 42px;
+}
+
+.team-members-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.members-profile {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+	width: 400px;
+}
+
+.profile-icon {
+	height: 100px;
+}
+
+/* Back To Top */
+.backtotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background-color: #aa0404;
+	color: white;
+	font-size: 22px;
+	bottom: 40px;
+	right: 50px;
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+  text-align: left;
+}
+
+.left-section p {
+  margin: 0;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.right-section .footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-section .footer-links li {
+  margin-left: 20px;
+}
+
+.right-section .footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.right-section .footer-links a:hover {
+  text-decoration: underline;
+}

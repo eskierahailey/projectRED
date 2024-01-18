@@ -1,0 +1,22 @@
+.teams {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+.teams h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+div.scroll-container {
+    background-color: #eeeeee;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
